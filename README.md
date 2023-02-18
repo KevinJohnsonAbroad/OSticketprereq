@@ -200,7 +200,7 @@ Hopefully it was a success and you should see the osTicket image in the browser.
 - "Security"
 - "Advanced"
 - "Disable Inheritance"
-- "Remove all Inherited properties from this item"
+- "Remove all properties from this item"
 - Click "Add"
 - "Select a Principle" 
 - Enter "Everyone" in the object name box
@@ -229,13 +229,14 @@ Hopefully it was a success and you should see the osTicket image in the browser.
 <p>
 <h3>Step 15: Install HeidiSQL</h3>
 
-- From the Installation Files, download and install HeidiSQL
+- Click the Installation Files,
+- Download and install HeidiSQL
 - Click to Open file
 - Accept the license agreement and continue to finish installation 
-- Within HeidiSQL, Create a new session by clicking on New
-- Then assign the username and password: (root); 
+- Inside HeidiSQL, Create a new session by clicking on New
+- Assign a username and password: (root); 
 - Connect to the session
-- Create a database called "osTicket"
+- Create a database named "osTicket"
 
 </p>
 <br />
@@ -247,34 +248,19 @@ Hopefully it was a success and you should see the osTicket image in the browser.
 <p>
 <h3>Step 16: Finish Setting up osTicket in the Browser</h3>
 
-- Continue in the Browser to comlete the osTicket Set up process.
-- Write down admin names, emails and passwords for reference
+- Complete the osTicket Set up process.
+- Remember or store admin names, emails and passwords
 - MySQL database: osTicket
 - mySqL Username: root
 - MySqL Password: 
 - Click "Install Now"
 
-And hopefully your help desk installation is successful
+Congratulations!! You did it!
 </p>
-<br />
-<hr>
-<p>
-<h2>Step 17: Final File Clean Up</h2> 
-</p>
-<p>
-- Delete C:\inetpub\wwwroot\osTicket\setup
-- Set Permissions to "Read" only at c:\inetpub/wwwroot/osTicket/include/lost-config.php
-</p>
-<br />
-
-<hr>
-
-
-Login page: http://localhost/osTicket/scp/login.php
-End User osTicket URL: http://localhost/osTicket/
 
 
 
 
-<hr>
+
+
 
